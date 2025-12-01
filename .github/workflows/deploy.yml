@@ -71,6 +71,6 @@ jobs:
         with:
           bucket: gha-custom-js-action-yurii.c
           dist-folder: ./dist
-          region: us-east-1
+          region: eu-north-1
       - name: Get website URL
         run: 'echo "Website URL: ${{ steps.deploy-site.outputs.website-url }}"'
